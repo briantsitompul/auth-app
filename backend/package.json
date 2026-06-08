@@ -1,1 +1,19 @@
-{\n  "name": "auth-app-backend",\n  "version": "1.0.0",\n  "type": "module",\n  "main": "index.js",\n  "scripts": {\n    "start": "node index.js",\n    "dev": "node --watch index.js"\n  },\n  "dependencies": {\n    "express": "^4.18.2",\n    "cors": "^2.8.5",\n    "dotenv": "^16.3.1",\n    "@supabase/supabase-js": "^2.38.0"\n  },\n  "devDependencies": {\n    "nodemon": "^3.0.2"\n  }\n}\n
+{
+  "name": "auth-app-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "@supabase/supabase-js": "^2.38.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
